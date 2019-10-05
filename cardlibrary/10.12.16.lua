@@ -6696,7 +6696,7 @@ local tentwelvesixteen = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Blue"] = 3,["Green"] = 3,},
 		["Effect"] = {
 			Name = "Life fam",
-			Description = "Cast only if you have over 6500 life. All enemy fighters lose 200 and and all allied fighters gain 200 power. Put a 1100/100 Celestial Remnant into your hand, then gain 500 life.",
+			Description = "Cast only if you have over 6500 life. If you have less, then you lose. All enemy fighters lose 200 and and all allied fighters gain 200 power. Put a 1100/100 Celestial Remnant into your hand, then gain 500 life.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Cost",6499},{"Weaken",200,"Opponent"},{"Strengthen",200},{"Add","Celestial Remnant"},{"Cost",-6999}},
 			Target = "Ally",
@@ -6716,7 +6716,7 @@ local tentwelvesixteen = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Blue"] = 3,["Green"] = 3,},
 		["Effect"] = {
 			Name = "Disenervation",
-			Description = "Cast only if you have over 8000 life. Draw two cards and destroy a target fighter. Put a 1100/100 Celestial Remnant into your hand, then gain 500 life.",
+			Description = "Cast only if you have over 8000 life. If you have less, then you lose. Draw two cards and destroy a target fighter. Put a 1100/100 Celestial Remnant into your hand, then gain 500 life.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Cost",7999},{"Draw",2},{"Destroy",030,"Single"},{"Add","Celestial Remnant"},{"Cost",-8499}},
 			Target = "Ally",
@@ -6737,7 +6737,7 @@ local tentwelvesixteen = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Blue"] = 3,["Green"] = 3,},
 		["Effect"] = {
 			Name = "Life fam",
-			Description = "Cast only if you control a celestial and have over 9500 life. Deal 1000 damage to all fighters. Put a 1100/100 Celestial Remnant into your hand, then gain 500 life.",
+			Description = "Cast only if you control a celestial and have over 9500 life. If you have less, then you lose. Deal 1000 damage to all fighters. Put a 1100/100 Celestial Remnant into your hand, then gain 500 life.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Cost",9499},{"Damage",1000,"All"},{"Add","Celestial Remnant"},{"Cost",-9999}},
 			Target = "Ally",
@@ -6758,7 +6758,7 @@ local tentwelvesixteen = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Blue"] = 3,["Green"] = 3,},
 		["Effect"] = {
 			Name = "Life fam",
-			Description = "Cast only if you control a celestial and have over 11000 life. Summon a 1500/500 Celestial of Night and a 1500/500 Celestial of Day. You gain 500 life.",
+			Description = "Cast only if you control a celestial and have over 11000 life. If you have less, then you lose. Summon a 1500/500 Celestial of Night and a 1500/500 Celestial of Day. You gain 500 life.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Summon","Celestial of Night"},{"Cost",10999},{"Summon","Celestial of Day"},{"Cost",-11499}},
 			Target = "Ally",
