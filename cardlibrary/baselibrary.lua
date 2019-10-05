@@ -4353,7 +4353,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Blue"] = 3,},
 		["Effect"] = {
 			Name = "Shell Shock",
-			Description = "Whenever Tiny Tank gains a lock, it gains 100 health and power.",
+			Description = "Whenever Tiny Tank becomes locked, it gains 100 health and power.",
 			["Type"] = "OnLock",
 			["Power"] = {{"Heal",100},{"Strengthen",100}},
 			Target = "Self",
