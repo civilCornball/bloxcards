@@ -7081,7 +7081,7 @@ local twentyeleveneighteen = {
 		["Cost"] = {["Green"] = 2,},
 		["Effect"] = {
 			Name = "WoodReviewer",
-			Description = "When this card is cast, put a random overseer card into your hand. Double Trigger: Whenever your opponent casts an action or terrain spell, return it to your hand. Fading.",
+			Description = "Fading. (This card does not trigger any effects when it leaves the field.) When this card is cast, put a random overseer card into your hand. Double Trigger: Whenever your opponent casts an action or terrain spell, return it to your hand. Fading.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"RandomAdd","Overseer"},{"Summon","Overseer Drake Token"},{"Damage",9999,"Self"}},
 			Target = "Ally",
@@ -7102,7 +7102,7 @@ local twentyeleveneighteen = {
 		["Cost"] = {["Green"] = 2,},
 		["Effect"] = {
 			Name = "WoodReviewer",
-			Description = "When this card is cast, put a random overseer card into your hand. Double Trigger: Whenever your opponent casts an action or terrain spell, return it to your hand. Fading.",
+			Description = "Fading. (This card does not trigger any effects when it leaves the field.) When this card is cast, put a random overseer card into your hand. Double Trigger: Whenever your opponent casts an action or terrain spell, return it to your hand. Fading.",
 			["Type"] = "OnEnemyCast",
 			["Power"] = {{"Add","Overseer Drake"},{"Damage",9999,"Self"}},
 			Target = "Ally",
