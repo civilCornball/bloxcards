@@ -95,7 +95,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Stealth"] = true,
 		["Effect"] = {
 			Name = "Conflux",
-			Description = "Whenever you cast another fighter, Lose 50 life and a red icon. This effect can cause negative icons. This card doesn't trigger effects when cast.",
+			Description = "Whenever you cast another fighter, lose 50 life and a red icon. This effect can cause negative icons. Stealth. (This card doesn't trigger effects when cast.)",
 			["Type"] = "OnAllySummon",
 			["Power"] = {{"Cost",50},{"Red",-1}},
 			Target = "Self",
@@ -611,7 +611,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Yellow"] = 3,},
 		["Effect"] = {
 			Name = "Greed Share",
-			Description = "Stealth. Fading. Whenever you cast another fighter, it gains 300 health and power. Reset Loogi's stats. He loses all abilities.",
+			Description = "Stealth. (This card does not trigger any effects when summoned.) Fading. (This card does not trigger any effects when it leaves the field.) Whenever you cast another fighter, it gains 300 health and power. Reset Loogi's stats. He loses all abilities.",
 			["Type"] = "OnAllySummon",
 			["Power"] = {{"Summon","LoogiTOKEN"},{"Heal",300,"Aggressor"},{"Strengthen",300,"Aggressor"},{"Damage",9999,"Self"}},
 			Target = "Ally",
@@ -1280,7 +1280,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 2,["Green"] = 4,},
 		["Effect"] = {
 			Name = "Sandbox",
-			Description = "Stealth. Fading. Whenever you cast another fighter, it gains 500 health. Reset NICCO's stats. He loses all abilities.",
+			Description = "Stealth. (This card does not trigger any effects when summoned.) Fading. (This card does not trigger any effects when it leaves the field.) Whenever you cast another fighter, it gains 500 health. Reset NICCO's stats. He loses all abilities.",
 			["Type"] = "OnAllySummon",
 			["Power"] = {{"Summon","NICCOToken"},{"Heal",500,"Aggressor"},{"Damage",9999,"Self"}},
 			Target = "Ally",
@@ -1861,7 +1861,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 2,["Red"] = 1,},
 		["Effect"] = {
 			Name = "Assimilate",
-			Description = "Ninja does not trigger any effects when summoned.",
+			Description = "Stealth. (This card does not trigger any effects when summoned.)",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Draw",0}},
 			Target = "Ally",
