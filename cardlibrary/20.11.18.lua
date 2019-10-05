@@ -8228,7 +8228,7 @@ local twentyeleveneighteen = {
  		["Cost"] = {["Blue"] = 3, ["Neutral"] = 4,}, 
  		["Effect"] = {
  			Name = "Helping Out",
- 			Description = "Whenever this fighter is targeted by a fighter, return that fighter to its owner's hand.",
+ 			Description = "Whenever this fighter is targeted by a fighter's effect, return that fighter to its owner's hand.",
  			["Type"] = "OnTarget",
  			["Power"] = {{"Return",030}},
  			Target = "Aggressor",
