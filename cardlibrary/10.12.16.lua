@@ -5895,7 +5895,7 @@ local tentwelvesixteen = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Yellow"] = 7,},
 		["Effect"] = {
 			Name = "Assembly",
-			Description = "Whenever SmashDude88 is targeted by a fighter, turn that fighter into a copy of this card, without this effect.",
+			Description = "Whenever SmashDude88 is targeted, summon a copy of this card without this effect. If it was targeted by a fighter, destroy that fighter.",
 			["Type"] = "OnTarget",
 			["Power"] = {{"SetHealth",0,"Aggressor"},{"Summon","SmashDude88TOKEN","Aggressor"}},
 			Target = "Opponent",
