@@ -5103,7 +5103,7 @@ local tentwelvesixteen = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Name = "Clash",
 			Description = "When this card dies, lock all fighters for two turns, then transform DunclubDuncan into its flank mode.",
 			["Type"] = "OnDeath",
-			["Power"] = {{"Lock",2},{"Summon","DunclubDuncan Token","Ally"},{"Damage",9999,"Self"}},
+			["Power"] = {{"Lock",2},{"Summon","DunclubDuncan Token","Ally"}},
 			Target = "All",
 		},
 		["Bio"] = "me me big boy",
