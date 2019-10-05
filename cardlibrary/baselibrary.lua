@@ -4206,7 +4206,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Yellow"] = 2,},
 		["Effect"] = {
 			Name = "Split Ego",
-			Description = "All allied fighters gain 200 power until end of turn. Draw a card.",
+			Description = "When this card is cast: All allied fighters gain 200 power. Draw a card. At the end of your turn: All allied fighters lose 200 power.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Strengthen",200},{"Summon","Reminder: Split Ego","Ally"},{"Draw",1}},
 			Target = "Ally",
@@ -4228,7 +4228,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Yellow"] = 2,},
 		["Effect"] = {
 			Name = "Split Ego",
-			Description = "All allied fighters gain 200 power until end of turn. Draw a card.",
+			Description = "When this card is cast: All allied fighters gain 200 power. Draw a card. At the end of your turn: All allied fighters lose 200 power.",
 			["Type"] = "OnEnd",
 			["Power"] = {{"Weaken",200,"Ally"},{"Damage",9999,"Self"}},
 			Target = "Single",
@@ -6300,7 +6300,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 2,["Red"] = 3},
 		["Effect"] = {
 			Name = "Acolyte",
-			Description = "When this card is cast, put a Kitten into your hand. When you cast a Kitten, ready it.",
+			Description = "When this card is cast, put a Kitten into your hand. Double Trigger: When you cast a Kitten, ready it.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Summon","Haunted Overseer Armor"},{"RandomAdd",{"Kitten","Kitten2","Kitten3","Kitten4","Kitten5","Kitten6","Kitten7","Kitten8","Kitten9"}},{"Damage",9999,"Self"}},
 			Target = "Ally",
@@ -6319,7 +6319,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 2,["Red"] = 3},
 		["Effect"] = {
 			Name = "Pyrotechnics",
-			Description = "When this card is cast, put a Kitten into your hand. When you cast a Kitten, ready it.",
+			Description = "When this card is cast, put a Kitten into your hand. Double Trigger: When you cast a Kitten, ready it.",
 			["Type"] = "OnAllySummon",
 			["Archetype"] = "Kitten",
 			["Power"] = {{"Unlock",1}},
@@ -8611,7 +8611,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Blue"] = 4,},
 		["Effect"] = {
 			Name = "SorryBurn",
-			Description = "When this card is cast, set your life to 1000. At the end of your turns, gain 1000 Life.",
+			Description = "When this card is cast, set your life to 1000. Double Trigger: At the end of your turns, gain 1000 Life.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"SetLife",1000},{"Summon","Tweety Token"},{"Damage",9999,"Self"}},
 			Target = "Ally",
