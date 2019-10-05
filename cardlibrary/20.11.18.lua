@@ -6693,7 +6693,7 @@ local twentyeleveneighteen = {
 		["Cost"] = {["Green"] = 4, ["Neutral"] = 4,},
 		["Effect"] = {
 			Name = "Revival",
-			Description = "When this card is cast, deal 14,000 damage to yourself. If you survive, you win the game.",
+			Description = "When this card is cast, deal 14,000 damage to yourself. If you survive, you win the game at the end of your turn..",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Damage",9999},{"Cost",14000},{"Summon","InceptionTime Token"},{"SetHealth",0,"Self"}},
 			Target = "Ally",
